@@ -1,0 +1,41 @@
+p {
+    margin:auto;
+    font-size: 30px;
+    background-color: #efefef;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    background-color: rgba(230,230,230,0.6);
+}
+ h2{
+    font-size: 60px;
+    text-decoration: underline 3px solid white;
+    color:white;
+    margin: 10px auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.work1 > p{
+    margin: 0;
+    font-size: 20px;
+}
+.work1>ul>li{
+    font-size: 20px;
+}
+.wexp{
+    background-color:rgba(230,230,230,0.6);
+    
+}
+.tskill>ul>li{
+    float:left;
+    padding: 5px;
+    margin:5px;
+    font-size: 30px;
+}
+.tskill>ul{
+    overflow: auto;
+}
+.tskill{
+    background-color: #efefef;
+}

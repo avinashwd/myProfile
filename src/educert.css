@@ -1,0 +1,31 @@
+.card{
+    box-shadow: 5px 5px 3px #cccccc;
+    z-index: 0;
+    transition: transform 0.2s ease-in;
+    background-color: rgba(230,230,230,00.8);
+}
+.card>ul>li{
+    font-weight: bold;
+}
+.card:hover{
+    transform: scale(1.1,1.08);
+    z-index: 1;
+}
+.cert>img{
+    margin:10px;
+    height:300px;
+    width:300px;
+    opacity:0.9;
+}
+.footer{
+    background-color: #6633ff;
+    padding:10px;
+
+}
+
+.footer>ul>li>a{
+    color:white;
+    padding:10px;
+    margin:10px;
+    font-size: 25px;
+}

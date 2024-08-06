@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./myimg/bgimg.jpg") repeat-y;
+  background-size: contain;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+  position:sticky;
+  top:0;
+  background-color: #6633ff;
+  width:100%;
+  padding:0px;
+  overflow: auto;
+  z-index: 1;
+}
+.header::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+nav{
+  padding:0px;
+}
+nav>ul{
+  padding:0px;
+  margin: 1px;
+}
+nav>ul>li{
+  
+  text-decoration: none;
+  color:#ffffff;
+  transition:color 0.8s ease;
+  right:0px;
+  padding:0px 5px 0px 5px;
+}
+
+nav>ul>li::after{
+  content: "";
+  display: block;
+  height:3px;
+  width:0px;
+  background-color: transparent;
+  transition:width 0.8s ease, background-color 0.2s ease;
+}
+nav>ul>li:hover::after{
+  width: 100%;
+  background-color: #ffff00;
+}
+nav>ul>li:hover{
+  color:#ffff00;
+  text-shadow: 0px 1px 5px;
+}
+nav>ul>li>a:hover{
+  color:#ffff00;
+}
+nav>ul>li>a{
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 30px;
+}
+.home{
+  position: relative;
+  background-color: rgba(230,230,230,0.7);
+}
+.home::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+ span::first-letter{
+  font-size: 25px;
 }
