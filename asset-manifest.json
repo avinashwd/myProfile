@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba252632.css",
+    "main.js": "/static/js/main.cbf4bcb4.js",
+    "static/js/453.4c6eb6ca.chunk.js": "/static/js/453.4c6eb6ca.chunk.js",
+    "static/media/DataScienceCertification.jpg": "/static/media/DataScienceCertification.aeb55dc15ff82b5029f9.jpg",
+    "static/media/WebDevelopmentCertificate.jpg": "/static/media/WebDevelopmentCertificate.d3c77c191fe13459f165.jpg",
+    "static/media/1704793474.png": "/static/media/1704793474.e5fb56588cc7488ae726.png",
+    "static/media/bgimg.jpg": "/static/media/bgimg.0a0c85aba2ec920c1ae9.jpg",
+    "static/media/DSC_2353a.jpg": "/static/media/DSC_2353a.162968621491be54c36b.jpg",
+    "static/media/images.jfif": "/static/media/images.c083eaa48e555b316af2.jfif",
+    "index.html": "/index.html",
+    "main.ba252632.css.map": "/static/css/main.ba252632.css.map",
+    "main.cbf4bcb4.js.map": "/static/js/main.cbf4bcb4.js.map",
+    "453.4c6eb6ca.chunk.js.map": "/static/js/453.4c6eb6ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba252632.css",
+    "static/js/main.cbf4bcb4.js"
+  ]
+}
